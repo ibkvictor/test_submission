@@ -1,0 +1,24 @@
+{
+  "name": "parcel-page",
+  "version": "1.0.0",
+  "description": "page using parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "dev": "parcel serve src/index.html",
+	"build": "parcel build src/index.html"
+  },
+  "author": "Victor Ezekiel",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^3.0.3"
+  }
+}
